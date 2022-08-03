@@ -5,6 +5,5 @@ on: [push]
 jobs:
   success:
     runs-on: ubuntu-latest
-
-steps:
+    steps:
       - run: echo "Always success"
