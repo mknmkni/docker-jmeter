@@ -1,7 +1,7 @@
 name: Branch Protection
 
 on:
-  push:
+  pull_request:
 
 jobs:
   success:
